@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/sstyle.css">
+
+    <script src="/js/HH.js"></script>
+    <title>best price exchange</title>
+
+</head>
+<body>
+
+<div class="header">
+<!--    <h2 id="shadow">Currency calculator</h2>-->
+    <h2 id="shadow">Welcome to Hosam's Website</h2>
+
+</div>
+
+
+<br><br><br>
+<article>
+
+    <p>This currency calculator shows the exchange rate table for 2 currencies</p>
+    <!--       <p>Currency 1:<input  id="Currancy1"  oninput="add()"/>-->
+
+    <p>Currency 1:<input id="Currancy1" class="space" oninput="add()"/>
+        Currency 2:<input c id="Currancy2" class="space" oninput="add()"/>
+        <button onclick="add2()" class="space">swap currencies</button>
+    </p>
+    <p>Exchange rate:<input id="ExchangeRate" oninput="add()" class="space"/>
+        <button onclick="show(),add()" class="space">Calculate table</button>
+    </p>
+    <p id="result"></p>
+    <!--       Exchange rate Currancy2/Currancy1 = 0.0000-->
+    <!--       placeholder="0.00"-->
+</article>
+
+<article id="hidden">
+    <table>
+        <tr class="lightpink">
+            <th id="left">Currency1</th>
+            <th id="right"> Currency2</th>
+        </tr>
+
+        <tr class="lightorange">
+            <td>1.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>2.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>3.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>4.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>5.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>6.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>7.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>8.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>9.00</td>
+            <td></td>
+        </tr>
+        <tr class="lightorange">
+            <td>10.00</td>
+            <td></td>
+        </tr>
+        </div>
+        <div>
+            <tr class="lightblue">
+                <td>20.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>30.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>40.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>50.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>60.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>70.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>80.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>90.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightblue">
+                <td>100.00</td>
+                <td></td>
+            </tr>
+        </div>
+        <div>
+            <tr class="lightpink">
+                <td>200.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>300.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>400.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>500.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>600.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>700.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>800.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>900.00</td>
+                <td></td>
+            </tr>
+            <tr class="lightpink">
+                <td>1000.00</td>
+                <td></td>
+            </tr>
+        </div>
+    </table>
+
+</article>
+<article id="hidden2">
+
+    <p id="fsize">Currency table</p>
+</article>
+
+
+<br>
+<br>
+
+<div class="footer">
+    <p>Newest Version 1.3</p>
+</div>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,102 @@
+* {
+    margin-left: 40px;
+    font-family: "Arial Unicode MS";
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    margin-left: 0;
+}
+
+#shadow {
+
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+.space {
+    margin: 0px;
+    padding: 0px;
+}
+
+#hidden, #hidden2, #result {
+    display: none;
+}
+
+#hi {
+    display: block;
+}
+
+table tr.lightpink {
+    /*background-color: #ffe6f3;*/
+    background-color: #ff99bb;
+}
+
+table tr.lightorange {
+    /*background-color: #ffffcc;}*/
+    background-color: #ffff80;
+}
+
+table tr.lightblue {
+    background-color: lightblue;
+
+}
+
+td {
+    padding: 5px;
+}
+
+td:active, th:active {
+    background-color: cornflowerblue;
+
+}
+
+table tr:nth-child(even) {
+    background-color: #f0f5f5;
+}
+
+table tr:hover {
+    background-color: #ccffff;
+
+}
+
+
+table, td, th {
+    /*border: 1px solid #ddd;*/
+    width: 10%;
+
+}
+
+td, th {
+    margin-left: 3px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#fsize {
+    font-family: "Arial Black";
+}
+
+#result {
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 0;
+}
